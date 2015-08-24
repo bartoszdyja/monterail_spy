@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'nokogiri/index'
+  root to: 'nokogiri#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
